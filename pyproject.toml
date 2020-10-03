@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "covid_tracker"
-version = "0.0.1"
+version = "1.0.0"
 description = "MIT"
 license = ""
 authors = ["Prateek Pisat <pisatprateek12@gmail.com>"]
@@ -30,6 +30,7 @@ ptpython = "^2.0.6"
 pydocstyle = "^4.0.1"
 pytest = "^5.2"
 pytest-coverage = "^0.0"
+sqlalchemy-stubs = "^0.3"
 
 [tool.black]
 line_length = 100

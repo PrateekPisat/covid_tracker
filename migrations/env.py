@@ -2,10 +2,9 @@ import logging
 import os
 from logging.config import fileConfig
 
-from sqlalchemy import engine_from_config, pool
-from sqlalchemy import pool
 from alembic import context
 from configly import Config
+from sqlalchemy import engine_from_config, pool
 from sqlalchemy.engine.url import URL
 
 from covid_tracker.models import BASE
