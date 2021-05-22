@@ -10,7 +10,7 @@ services:
     environment:
       POSTGRES_USER: "postgres"
       POSTGRES_PASSWORD: "postgres"
-      POSTGRES_DB: "covid_tracker"
+      POSTGRES_DB: "db_name"
     volumes:
       - postgres:/data/db/postgres
 
